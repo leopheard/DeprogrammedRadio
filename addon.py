@@ -15,16 +15,11 @@ url11 = "https://www.ecoshock.org/feed/cdquality" #ECOSHOCK
 url12 = "https://edgeeffects.net/feed/podcast/" #EDGEEFFECTS
 url13 = "http://feeds.feedburner.com/unlearnandrewild" #FORTHEWILD
 url14 = "http://feeds.feedburner.com/lawanddisorder" #LAWANDDISORDER
-url15 = ""
-url16 = ""
-url17 = ""
-url18 = ""
-url19 = ""
-url20 = ""
-url21 = ""
-url22 = ""
-url23 = ""
-url24 = ""
+url15 = "http://leoville.tv/podcasts/sn.xml" #SECURITYNOW
+url16 = "http://feeds.twit.tv/kfi.xml" #THETECHGUY
+url17 = "http://feeds.twit.tv/twit.xml" #THISWEEKINTECH
+url18 = "http://leo.am/podcasts/tri.xml" #TRIANGULATION
+
 @plugin.route('/')
 def main_menu():
     items = [
@@ -92,19 +87,19 @@ def main_menu():
         {
             'label': plugin.get_string(30015),
             'path': plugin.url_for('episodes15'),
-            'thumbnail': ""},
+            'thumbnail': "https://www.deprogrammedradio.com/images/Shows-190/security-now.jpg"},
         {
             'label': plugin.get_string(30016),
             'path': plugin.url_for('episodes16'),
-            'thumbnail': ""},
+            'thumbnail': "https://www.deprogrammedradio.com/images/shows/the-tech-guy-383.jpg"},
         {
             'label': plugin.get_string(30017),
             'path': plugin.url_for('episodes17'),
-            'thumbnail': ""},
+            'thumbnail': "https://www.deprogrammedradio.com/images/this-week-in-tech.jpg"},
         {
             'label': plugin.get_string(30018),
             'path': plugin.url_for('episodes18'),
-            'thumbnail': ""},
+            'thumbnail': "https://www.deprogrammedradio.com/images/triangulation.jpg"},
         {
             'label': plugin.get_string(30019),
             'path': plugin.url_for('episodes19'),

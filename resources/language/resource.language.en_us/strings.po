@@ -15,51 +15,83 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#30000"
-msgid "All episodes"
+msgid "Deprogrammed Radio - livestream"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Latest episodes"
+msgid "Alternative Radio"
 msgstr ""
 
 msgctxt "#30002"
-msgid ""
+msgid "Between The Lines"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Democracy Now"
 msgstr ""
 
 msgctxt "#30004"
-msgid ""
+msgid "Middle Theory"
 msgstr ""
 
 msgctxt "#30005"
-msgid ""
+msgid "Bradcast w/Brad Friedman"
 msgstr ""
 
 msgctxt "#30006"
-msgid ""
+msgid "The Corbett Report"
 msgstr ""
 
 msgctxt "#30007"
-msgid ""
+msgid "Windows On The World"
 msgstr ""
 
 msgctxt "#30008"
-msgid ""
+msgid "Critical Thinking For Beginners"
 msgstr ""
 
 msgctxt "#30009"
-msgid ""
+msgid "Skeptics With A K"
 msgstr ""
 
 msgctxt "#30010"
-msgid ""
+msgid "Century Of Lies"
 msgstr ""
 
 msgctxt "#30011"
-msgid ""
+msgid "Ecoshock"
 msgstr ""
 
 msgctxt "#30012"
-msgid ""
+msgid "Edge Effects"
+msgstr ""
+
+msgctxt "#30013"
+msgid "For The Wild"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Law And Disorder"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Law And Disorder"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Security Now"
+msgstr ""
+
+msgctxt "#30016"
+msgid "The Tech Guy"
+msgstr ""
+
+msgctxt "#30017"
+msgid "This Week In Tech"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Triangulation"
 msgstr ""
 
 # empty string with id 32003

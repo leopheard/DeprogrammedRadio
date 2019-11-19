@@ -20,6 +20,10 @@ The 24/7 top talk radio station for: News Mysteries Science Technology Ecology C
 - <a href="https://www.deprogrammedradio.com/radio-shows/activism-ecology-law/edge-effects">Edge Effects</a><br>
 - <a href="https://www.deprogrammedradio.com/radio-shows/activism-ecology-law/for-the-wild">For The Wild</a>
 - <a href="https://www.deprogrammedradio.com/radio-shows/activism-ecology-law/law-and-disorder">Law And Disorder</a><br>
+- <a href="https://www.deprogrammedradio.com/radio-shows/technology/security-now">Security Now</a><br>
+- <a href="https://www.deprogrammedradio.com/radio-shows/technology/the-tech-guy">The Tech Guy</a><br>
+- <a href="https://www.deprogrammedradio.com/radio-shows/technology/this-week-in-tech">This Week In Tech</a><br>
+- <a href="https://www.deprogrammedradio.com/radio-shows/technology/triangulation">Triangulation</a><br>
 
 <a href="www.kodi.tv">Kodi</a> (formerly known as XBMC) is an award-winning free and open source (GPL) software media player and entertainment hub that can be installed on Linux, OSX, Windows, iOS and Android, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.<br>
 
