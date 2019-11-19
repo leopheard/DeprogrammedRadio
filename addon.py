@@ -2,10 +2,11 @@ from xbmcswift2 import Plugin, xbmcgui
 from resources.lib import mainaddon
 plugin = Plugin()
 url1 = "https://www.alternativeradio.org/arpodcast.xml" #ALTERNATIVERADIO
-url2 = "https://podcasts.apple.com/us/podcast/between-the-lines-radio-newsmagazine-podcast/id387215195" #BETWEENTHELINES
+url2 = "https://feeds.buzzsprout.com/245514.rss" #BETWEENTHELINES
 url3 = "https://www.democracynow.org/podcast.xml" #DN
 url4 = "https://www.middletheory.com/feed/podcast/" #MIDDLETHEORY
-url5 = "https://www.bradblog.com/podcastgen/bradcast/feed.xml" #BRADCAST
+#url5 = "https://www.bradblog.com/podcastgen/bradcast/feed.xml" #BRADCAST
+url5 = "view-source:https://bradblog.com/podcastgen/bradcast/feed.xml"
 url6 = "http://feeds.feedburner.com/CorbettreportcomPodcast" #CORBETT
 url7 = "http://feeds.soundcloud.com/users/soundcloud:users:550574712/sounds.rss" #WINDOWSONTHEWORLD
 url8 = "http://mediapub.it.ox.ac.uk/feeds/129128/audio.xml" #CRITICALREASONINGFORBEGINNERS
@@ -100,30 +101,6 @@ def main_menu():
             'label': plugin.get_string(30018),
             'path': plugin.url_for('episodes18'),
             'thumbnail': "https://www.deprogrammedradio.com/images/triangulation.jpg"},
-        {
-            'label': plugin.get_string(30019),
-            'path': plugin.url_for('episodes19'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(30020),
-            'path': plugin.url_for('episodes20'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(30021),
-            'path': plugin.url_for('episodes21'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(30022),
-            'path': plugin.url_for('episodes22'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(30023),
-            'path': plugin.url_for('episodes23'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(30024),
-            'path': plugin.url_for('episodes24'),
-            'thumbnail': ""},
     ]
     return items
 
@@ -234,42 +211,6 @@ def episodes18():
     soup18 = mainaddon.get_soup18(url18)
     playable_podcast18 = mainaddon.get_playable_podcast18(soup18)
     items = mainaddon.compile_playable_podcast18(playable_podcast18)
-    return items
-@plugin.route('/episodes19/')
-def episodes19():
-    soup19 = mainaddon.get_soup19(url19)
-    playable_podcast19 = mainaddon.get_playable_podcast19(soup19)
-    items = mainaddon.compile_playable_podcast19(playable_podcast19)
-    return items
-@plugin.route('/episodes20/')
-def episodes20():
-    soup20 = mainaddon.get_soup20(url20)
-    playable_podcast20 = mainaddon.get_playable_podcast20(soup20)
-    items = mainaddon.compile_playable_podcast20(playable_podcast20)
-    return items
-@plugin.route('/episodes21/')
-def episodes21():
-    soup21 = mainaddon.get_soup21(url21)
-    playable_podcast21 = mainaddon.get_playable_podcast21(soup21)
-    items = mainaddon.compile_playable_podcast21(playable_podcast21)
-    return items
-@plugin.route('/episodes22/')
-def episodes22():
-    soup22 = mainaddon.get_soup22(url22)
-    playable_podcast22 = mainaddon.get_playable_podcast22(soup22)
-    items = mainaddon.compile_playable_podcast22(playable_podcast22)
-    return items
-@plugin.route('/episodes23/')
-def episodes23():
-    soup23 = mainaddon.get_soup23(url23)
-    playable_podcast23 = mainaddon.get_playable_podcast23(soup23)
-    items = mainaddon.compile_playable_podcast23(playable_podcast23)
-    return items
-@plugin.route('/episodes24/')
-def episodes24():
-    soup24 = mainaddon.get_soup24(url24)
-    playable_podcast24 = mainaddon.get_playable_podcast24(soup24)
-    items = mainaddon.compile_playable_podcast24(playable_podcast24)
     return items
 if __name__ == '__main__':
     plugin.run()
